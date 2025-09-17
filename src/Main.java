@@ -1,6 +1,7 @@
 public class Main{
     public static void main(String[] args){
-        Vector one = new Vector(3,4);
-        Vector two = new Vector(4,3);
+        String name = My.myInput("Name: ");
+        int age = My.myIntInput("Age: ");
+        System.out.println(name+" is half of "+age*2+" years old.");
     }
 }

@@ -24,6 +24,7 @@
 },
 // Disable inline suggestions (e.g., from GitHub Copilot)
 "editor.inlineSuggest.enabled": false,
+"editor.inlayHints.enabled": "off",
 // Disable hover popups
 "editor.hover.enabled": false,
 // Disable GitHub Copilot completely if it's installed
